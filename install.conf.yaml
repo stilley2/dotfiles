@@ -1,3 +1,4 @@
 - link:
         ~/.config/nvim/init.vim: init.vim
         ~/.inputrc: .inputrc
+        ~/.screenrc: .screenrc
