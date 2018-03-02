@@ -29,8 +29,11 @@ autocmd BufNewFile,BufRead *.md setlocal ft=markdown
 autocmd FileType markdown setlocal tw=80 spell spelllang=en_us
 autocmd FileType tex setlocal spell spelllang=en_us
 "autocmd FileType python setlocal omnifunc=jedi#completions
-map <C-l> :tabn<CR>
-map <C-h> :tabp<CR>
+"https://stackoverflow.com/questions/446269/can-i-use-space-as-mapleader-in-vim
+noremap <space> <Nop>
+let mapleader = " "
+map <leader>n :tabn<CR>
+map <leader>p :tabp<CR>
 "map <C-l> :SyntasticCheck<CR>
 tnoremap <Esc> <C-\><C-n>
 set nojoinspaces
