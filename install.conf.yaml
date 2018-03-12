@@ -3,3 +3,4 @@
         ~/.config/nvim/after : after
         ~/.inputrc: .inputrc
         ~/.screenrc: .screenrc
+        ~/.bash_aliases: .bash_aliases
