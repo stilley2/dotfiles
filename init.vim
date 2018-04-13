@@ -26,6 +26,7 @@ tnoremap <Esc> <C-\><C-n>
 set scrolloff=10
 set guicursor=
 set nojoinspaces
+set hidden
 
 "https://stackoverflow.com/questions/446269/can-i-use-space-as-mapleader-in-vim
 noremap <space> <Nop>
