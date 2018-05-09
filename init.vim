@@ -40,6 +40,7 @@ let g:neomake_cpp_gcc_maker = {'args': ['--std=c++11']}
 call neomake#configure#automake('w')
 
 let g:jedi#usages_command = "<leader>j"
+let g:jedi#smart_auto_mappings = 0
 
 autocmd BufNewFile,BufRead *.md setlocal ft=markdown
 autocmd FileType markdown setlocal tw=80 spell spelllang=en_us
